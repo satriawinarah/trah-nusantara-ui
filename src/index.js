@@ -2,11 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Tree from './component/Tree/Tree';
+import List from './component/List/List';
 import reportWebVitals from './reportWebVitals';
+import salakaNagara from './data/nobles-tree/salaka-nagara.json';
+
+document.body.classList.add('main-background');
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/*<App />*/}
+      <Tree data={salakaNagara}/>
   </React.StrictMode>,
   document.getElementById('root')
 );

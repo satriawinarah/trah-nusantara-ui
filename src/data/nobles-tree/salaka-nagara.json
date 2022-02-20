@@ -1,0 +1,32 @@
+{
+  "id": 1,
+  "name": "Dewawarman I",
+  "alias": "Prabu Darmalokapala Aji Raksa Gapura Sagara",
+  "parentId": null,
+  "dateStart": "130",
+  "dateEnd": "168",
+  "description": "",
+  "children": [
+    {
+      "id": 2,
+      "name": "Dewawarman II",
+      "alias": "Prabu Digwijayakasa Dewawarmanputra",
+      "parentId": 1,
+      "dateStart": "168",
+      "dateEnd": "195",
+      "description": "",
+      "children": [
+        {
+          "id": 3,
+          "name": "Dewawarman III",
+          "alias": "Prabu Singasagara Bimayasawirya",
+          "parentId": 2,
+          "dateStart": "195",
+          "dateEnd": "238",
+          "description": "",
+          "children": []
+        }
+      ]
+    }
+  ]
+}

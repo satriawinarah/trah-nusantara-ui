@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Salakanagara",
+    "yearStart": 130,
+    "yearEnd": 362
+  },
+  {
+    "id": 2,
+    "name": "Tarumanagara",
+    "yearStart": 362,
+    "yearEnd": 699
+  },
+  {
+    "id": 3,
+    "name": "Kutai Martapura",
+    "yearStart": 399,
+    "yearEnd": 1635
+  },
+  {
+    "id": 4,
+    "name": "Kalingga",
+    "yearStart": 594,
+    "yearEnd": 695
+  },
+  {
+    "id": 3,
+    "name": "Sunda",
+    "yearStart": 699,
+    "yearEnd": 1610
+  },
+  {
+    "id": 5,
+    "name": "Medang Kamulan",
+    "yearStart": 732,
+    "yearEnd": 929
+  },
+  {
+    "id": 6,
+    "name": "Panjalu",
+    "yearStart": 1045,
+    "yearEnd": 1222
+  },
+  {
+    "id": 6,
+    "name": "Singhasari",
+    "yearStart": 1222,
+    "yearEnd": 1292
+  },
+  {
+    "id": 7,
+    "name": "Majapahit",
+    "yearStart": 1293,
+    "yearEnd": 1520
+  }
+]
