@@ -1,49 +1,32 @@
 import './tree.css';
+import React from 'react';
 
-function TreeView() {
+class TreeView extends React.Component {
 
+    renderChildren() {
+        let rows = [];
+        const children = this.props.data.children;
+        for (let i = 0; i < children.length; i++) {
+            const child = children[i];
+            rows.push(<li key={child.id}> <button>{child.name}</button></li>);
+        }
+        return rows;
+    }
 
-
-    return (
-        <div class="tree">
-            <ul>
-                <li>
-                    <a href="#">Parent</a>
-                    <ul>
-                        <li>
-                            <a href="#">Child</a>
-                            <ul>
-                                <li>
-                                    <a href="#">Grand Child</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">Child</a>
-                            <ul>
-                                <li><a href="#">Grand Child</a></li>
-                                <li>
-                                    <a href="#">Grand Child</a>
-                                    <ul>
-                                        <li>
-                                            <a href="#">Great Grand Child</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Great Grand Child</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Great Grand Child</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">Grand Child</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-    );
+    render() {
+        return (
+            <div className="tree">
+                <ul>
+                    <li>
+                        <button>{this.props.data.name}</button>
+                        <ul>
+                            {this.renderChildren()}
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        );
+    }
 }
 
 export default TreeView;
