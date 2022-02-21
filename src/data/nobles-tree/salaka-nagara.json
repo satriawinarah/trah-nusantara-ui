@@ -25,6 +25,57 @@
           "dateEnd": "238",
           "description": "",
           "children": []
+        },
+        {
+          "id": 3,
+          "name": "Dewawarman III",
+          "alias": "Prabu Singasagara Bimayasawirya",
+          "parentId": 2,
+          "dateStart": "195",
+          "dateEnd": "238",
+          "description": "",
+          "children": [
+            {
+              "id": 3,
+              "name": "Dewawarman III",
+              "alias": "Prabu Singasagara Bimayasawirya",
+              "parentId": 2,
+              "dateStart": "195",
+              "dateEnd": "238",
+              "description": "",
+              "children": []
+            },
+            {
+              "id": 3,
+              "name": "Dewawarman III",
+              "alias": "Prabu Singasagara Bimayasawirya",
+              "parentId": 2,
+              "dateStart": "195",
+              "dateEnd": "238",
+              "description": "",
+              "children": []
+            },
+            {
+              "id": 3,
+              "name": "Dewawarman III",
+              "alias": "Prabu Singasagara Bimayasawirya",
+              "parentId": 2,
+              "dateStart": "195",
+              "dateEnd": "238",
+              "description": "",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Dewawarman III",
+          "alias": "Prabu Singasagara Bimayasawirya",
+          "parentId": 2,
+          "dateStart": "195",
+          "dateEnd": "238",
+          "description": "",
+          "children": []
         }
       ]
     }

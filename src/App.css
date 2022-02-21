@@ -56,6 +56,17 @@ h4 {
     background: #282c34;
 }
 
+.custom-link {
+    text-align: center;
+    font-family: 'Trochut', cursive;
+    color: #282c34;
+    text-decoration: none;
+}
+
+.custom-link:hover {
+    color: #ffffff;
+}
+
 .kingdom-list {
     text-align: center;
     font-family: 'Trochut', cursive;

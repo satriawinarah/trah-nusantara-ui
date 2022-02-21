@@ -10,8 +10,8 @@ class App extends React.Component {
         for (let i = 0; i < kingdoms.length; i++) {
             const kingdom = kingdoms[i];
             rows.push(
-                <li key={kingdom.id} className={"list-group-item brown-background"}>
-                    {kingdom.name} {kingdom.yearStart}-{kingdom.yearEnd} M
+                <li key={kingdom.id} className={"list-group-item brown-background"} >
+                    <a className={"custom-link"} href={"/nobles"}>{kingdom.name} {kingdom.yearStart}-{kingdom.yearEnd} M</a>
                 </li>
             );
         }
